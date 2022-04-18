@@ -1,0 +1,51 @@
+/* body, html {
+    height: 100%;
+    margin: 0px;
+} */
+
+.style {
+    background-image: url('./Images/pexels-tuur-tisseghem-626986.jpg');
+    background-position: center;
+    background-size: cover;
+    color: papayawhip;
+    text-shadow: 1px 1px 2px palevioletred;
+    height: 100vh;
+}
+
+.quote {
+    margin: 0px;
+}
+
+.author {
+    margin: 0%;
+    position: absolute;
+    top: 60vh;
+    left: 57%;
+}
+
+#quoteBox {
+    position: absolute;
+    top: 25vh;
+    left: 25%;
+    text-align: center;
+    width: 50vw;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.473);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 25vh;
+    left: 45%;
+    font-size: 20px;
+    background-color: papayawhip;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    background-color: palevioletred;
+    color: papayawhip;
+}
